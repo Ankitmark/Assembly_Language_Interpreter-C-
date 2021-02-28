@@ -1,0 +1,24 @@
+DEC d
+DEC t
+DEC x
+DEC y
+LDI -1
+STR d
+LDI 0
+STR t
+LDI 6
+STR y
+LDI 3
+STR x
+LDB y
+LDA t
+ADD
+STR t
+LDB x
+LDA d
+ADD
+JZS 22
+STR x
+JMP 12
+LDA t
+HLT

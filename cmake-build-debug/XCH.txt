@@ -1,0 +1,10 @@
+DEC x
+DEC y
+LDI 3
+STR x
+LDI 7
+STR y
+LDA x
+LDB y
+XCH
+HLT
